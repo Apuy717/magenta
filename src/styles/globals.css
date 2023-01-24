@@ -1,0 +1,12 @@
+@tailwind base;
+html {
+  scroll-behavior: smooth;
+}
+@tailwind components;
+@tailwind utilities;
+
+.swiper-free-mode > .swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  -o-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+}
